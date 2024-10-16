@@ -1,0 +1,7 @@
+../Core/Src/SIGMA_iflash.c:25:17:SIGMA_GetPage	6
+../Core/Src/SIGMA_iflash.c:48:17:SIGMA_GetBank	1
+../Core/Src/SIGMA_iflash.c:62:19:SIGMA_Iflash_Erase	2
+../Core/Src/SIGMA_iflash.c:126:10:bytesTo64Bit	2
+../Core/Src/SIGMA_iflash.c:143:19:SIGMA_Iflash_Write	5
+../Core/Src/SIGMA_iflash.c:204:19:SIGMA_Iflash_Read	3
+../Core/Src/SIGMA_iflash.c:229:6:JumpToAPP	1

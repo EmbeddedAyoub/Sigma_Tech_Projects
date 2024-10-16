@@ -1,0 +1,5 @@
+../Core/Src/SIGMA_xmodem.c:13:14:SIGMA_Xmodem_Receive	16
+../Core/Src/SIGMA_xmodem.c:96:14:SIGMA_Xmodem_receive_packet	6
+../Core/Src/SIGMA_xmodem.c:132:10:SIGMA_Xmodem_calculate_crc16	4
+../Core/Src/SIGMA_xmodem.c:149:6:SIGMA_Xmodem_send_ack	1
+../Core/Src/SIGMA_xmodem.c:154:6:SIGMA_Xmodem_send_nack	1

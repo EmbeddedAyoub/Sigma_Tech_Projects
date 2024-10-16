@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -60,8 +60,8 @@ all: main-build
 main-build: Sigma_Embedded_Bootloader_UART.elf secondary-outputs
 
 # Tool invocations
-Sigma_Embedded_Bootloader_UART.elf Sigma_Embedded_Bootloader_UART.map: $(OBJS) $(USER_OBJS) C:\Users\maher\STM32CubeIDE\workspace_1.11.2\Sigma_Embedded_Bootloader_UART\STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Sigma_Embedded_Bootloader_UART.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\maher\STM32CubeIDE\workspace_1.11.2\Sigma_Embedded_Bootloader_UART\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sigma_Embedded_Bootloader_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Sigma_Embedded_Bootloader_UART.elf Sigma_Embedded_Bootloader_UART.map: $(OBJS) $(USER_OBJS) C:\MyWork\Personal\Sigma_Embedded\Sigma_Tech\Bootloader\Sigma_Tech_Projects\UART_Xmodem_Bootloader\STM32L552ZETXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Sigma_Embedded_Bootloader_UART.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\MyWork\Personal\Sigma_Embedded\Sigma_Tech\Bootloader\Sigma_Tech_Projects\UART_Xmodem_Bootloader\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="Sigma_Embedded_Bootloader_UART.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
